@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Texture Pack Generator</title>
+</head>
+<body>
+
+<h2>Generate Minecraft Texture</h2>
+
+<form action="/generate" method="post">
+    <label>Block Name:</label>
+    <input type="text" name="block_name"><br><br>
+
+    <label>Resolution:</label>
+    <select name="resolution">
+        <option value="16">16x16</option>
+        <option value="32">32x32</option>
+        <option value="64">64x64</option>
+        <option value="128">128x128</option>
+    </select><br><br>
+
+    <label>Style:</label>
+    <input type="text" name="style" placeholder="industrial / medieval / sci-fi"><br><br>
+
+    <button type="submit">Generate</button>
+</form>
+
+</body>
+</html>
